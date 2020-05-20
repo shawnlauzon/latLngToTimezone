@@ -1,4 +1,9 @@
 CHANGELOG.md
+
+## 0.1.1 2020-05-20
+
+- Fix example
+
 ## 0.1.0 2020-05-20
 
 - Initial version
