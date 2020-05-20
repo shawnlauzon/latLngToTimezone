@@ -1,5 +1,9 @@
 CHANGELOG.md
 
+## 0.1.2 2020-05-20
+
+- Update README to point to pub.dev for example
+
 ## 0.1.1 2020-05-20
 
 - Fix example

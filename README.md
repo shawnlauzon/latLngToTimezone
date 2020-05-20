@@ -12,17 +12,4 @@ characters).
 
 ## Usage
 
-In your code, you can do
-
-```dart
-import 'package:lat_lng_to_timezone/timezone_mapper.dart' as tzmap;
-
-void main() {
-  // Montreal
-  double latitude = 5.5017;
-  double longitude = -73.5673;
-
-  String tz = tzmap.latLngToTimezoneString(latitude, longitude);
-  print('Montreal is in Time Zone $tz');
-}
-```
+See the [example at pub.dev](https://pub.dev/packages/lat_lng_to_timezone#-example-tab-).
