@@ -1,7 +1,7 @@
 name: lat_lng_to_timezone
 description: "Lat/long to timezone mapper in Dart. Does not require web services or data files"
-version: 0.1.2
+version: 0.2.0
 homepage: https://github.com/shawnlauzon/latLngToTimezone
 
 environment:
-  sdk: ">=2.0.0 <3.0.0"
+  sdk: ">=2.12.0 <3.0.0"
