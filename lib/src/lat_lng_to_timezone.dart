@@ -13389,11 +13389,9 @@ int _call46(num lat, num lng) {
 }
 
 class _TzPolygon {
-  List<num> pts;
+  final List<num> pts;
 
-  _TzPolygon(List<num> D) {
-    pts = D;
-  }
+  _TzPolygon(this.pts);
 
   bool contains(num testy, num testx) {
     bool inside = false;
@@ -119615,7 +119613,7 @@ class _Initializer31 {
 }
 
 List<_TzPolygon> initPolyArray() {
-  poly = List<_TzPolygon>(3053);
+  poly = List<_TzPolygon>.filled(3053, _TzPolygon([]));
 
   _Initializer1._init();
   _Initializer2._init();
