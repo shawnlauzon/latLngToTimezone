@@ -1,4 +1,4 @@
-import 'package:lat_lng_to_timezone/lat_lng_to_timezone.dart' as tzmap;
+import '../lib/lat_lng_to_timezone.dart' as tzmap;
 
 void main() {
   // Montreal coordinates
@@ -7,4 +7,8 @@ void main() {
 
   String tz = tzmap.latLngToTimezoneString(latitude, longitude);
   print('Montreal is in the $tz time zone.');
+
+  Duration? utcOffset = tzmap.getTimezoneUTCOffset(tz);
+  print("Montreal UTC offset is ${utcOffset?.inHours}");
 }
+
