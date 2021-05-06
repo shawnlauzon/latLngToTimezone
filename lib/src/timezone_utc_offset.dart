@@ -1,3 +1,6 @@
+/// The offset data was pulled from https://github.com/bproctor/timezones
+/// Some offset data was added by crawling the web
+
 import 'lat_lng_to_timezone.dart';
 
 /// get the UTC time offset from  a timezone name

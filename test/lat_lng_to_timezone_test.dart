@@ -1,7 +1,3 @@
-/// The offset data was pulled from https://github.com/bproctor/timezones
-/// Some offset data was added by crawling the web
-
-
 
 
 import '../lib/lat_lng_to_timezone.dart';
