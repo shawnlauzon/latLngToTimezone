@@ -9,6 +9,6 @@ void main() {
   print('Montreal is in the $tz time zone.');
 
   Duration? utcOffset = tzmap.getTimezoneUTCOffset(tz);
-  print("Montreal UTC offset is ${utcOffset?.inHours}");
+  print("Montreal UTC offset is $utcOffset");
 }
 
