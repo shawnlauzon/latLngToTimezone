@@ -1,7 +1,7 @@
 # latLngToTimezone
 Lat/long to timezone mapper in Dart. Does not require web services or data files
 
-Now supports offline querying for the UTC time offset for each time zone
+Now supports offline querying for the UTC time offset for each timezone
 
 The "lat/long to timezone polygon mapping" is hardcoded, and we hope this rarely changes, but the changes to offsets and daylight savings changeover dates etc. (which are more frequent) are taken care of by your system libraries and so these are automatically kept up-to-date. From time to time, someone updates the files with the latest timezone polygons, but these rarely change...I think the most recent change is the Crimean peninsular.
 
