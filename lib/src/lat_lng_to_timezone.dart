@@ -11,6 +11,10 @@ String latLngToTimezoneString(num lat, num lng) {
   return tzId;
 }
 
+// Provides the complete list of timezone names
+// used by this library
+List<String> listTimezoneNames() => _timezoneStrings.toList(growable: false);
+
 List<String> _timezoneStrings = [
   "unknown",
   "Africa/Abidjan",
